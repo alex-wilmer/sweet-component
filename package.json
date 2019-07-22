@@ -2,9 +2,11 @@
   "name": "super-sweet-react-component",
   "version": "0.2.1",
   "description": "A sweet react component",
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src.js --out-file dist.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "homepage": "https://github.com/alex-wilmer/sweet-component#readme",
   "dependencies": {
     "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
   }
 }
