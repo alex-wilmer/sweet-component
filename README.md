@@ -3,11 +3,11 @@
 ### Quickstart
 
 ```
-npm i sweet-react-component
+npm i super-sweet-react-component
 ```
 
 ```
-import Sweet from 'sweet-react-component'
+import Sweet from 'super-sweet-react-component'
 
 ...
 
