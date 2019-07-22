@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alex-wilmer/sweet-component/issues"
   },
-  "homepage": "https://github.com/alex-wilmer/sweet-component#readme"
+  "homepage": "https://github.com/alex-wilmer/sweet-component#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
 }
